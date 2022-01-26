@@ -1,1 +1,9 @@
-<p>success works!</p>
+<label>Enter a number betwee 1 and 10</label>
+<input type="text" class="form-control"
+(input)="getInput($event)"
+><br>
+<button class="btn btn-primary "
+    (click)="getColor()"
+>Verify</button>
+<p 
+>The color is {{colorArray[num]}}</p>
